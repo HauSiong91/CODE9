@@ -1,0 +1,152 @@
+body{
+  position: absolute; 
+  bottom: 0px; 
+  top: 0px; 
+  left: 0px; 
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 540px !important;
+}
+
+.topbanner{
+  background-image: url('/src/images/TraceTogether_CNNPH.jpg');
+  background-size: cover;
+  background-position: center;  
+}
+
+.ladder{
+  min-height: 25%;
+}
+
+.container{
+  display: contents;
+}
+
+.contents{
+  padding: 15px 15px 0px 15px;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.roundEdge{ 
+  border-radius: 5px;
+}
+
+.Vaccinated{  
+  height: 120px; 
+  background-color: rgb(163, 214, 156);
+}
+
+.Vaccinated font{  
+  color: rgb(21, 85, 21);
+}
+
+.Vaccinated .fa-syringe {
+  color: green;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.NotVaccinated,.noTestStatus{
+  height: 120px; 
+  background-color: rgb(233, 232, 232);
+}
+
+.NotVaccinated .fa-syringe, .noTestStatus .newspaper {
+  color: grey;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.NotVaccinated, .noTestStatus, .Vaccinated {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.exchangeRow {
+  padding:10px;
+  background-color: #F2F9FF;
+  border-radius: 7.5px;
+  opacity: 0.95;
+  margin: 3px;
+}
+
+.bluetooth{
+  color: rgb(33, 98, 184);
+  vertical-align: middle;
+}
+
+.topBannerInfo{
+  vertical-align: middle;
+}
+
+.safeEntryIcon{
+  height: 45px;
+}
+
+
+.safeEntryImgButton{
+  text-align: center;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.NavButton{
+  height: 30px;
+}
+
+.safeEntryImgButton img, .shareApp img
+{
+  height: 55px;
+  margin: 10px;
+  border-radius: 30%;
+  background-color: white;
+  box-shadow: 2px 2px 0 0 rgb(185, 184, 184);
+}
+
+.SafeEntryOverall{
+  margin-top: 15px;  
+  border: 1px solid #ccc!important;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 0 rgb(185, 184, 184);
+}
+
+.shareApp{
+  margin-top: 15px;  
+  border: 1px dashed #ccc!important;
+  border-radius: 10px;
+}
+
+.SafeEntryCheckinMenu {
+  background-color: rgb(233, 243, 252);
+}
+
+hr{
+  margin-top: 0px;
+}
+
+.navIcon{
+  font-size: 20px;
+}
+.red{
+  color:tomato;
+}
+
+.sharingAppContents{
+  border: 1px dashed #ccc!important;
+  border-radius: 10px;
+}
+
